@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PInvokeTableGeneratorTest", "PInvokeTableGeneratorTest\PInvokeTableGeneratorTest.csproj", "{80715E79-8779-4C0F-9CBC-8746A7B48320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PInvokeTableGeneratorNetCoreTest", "PInvokeTableGeneratorNetCoreTest\PInvokeTableGeneratorNetCoreTest.csproj", "{12F14BD9-B764-4C28-AB43-1EEAA953BF69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80715E79-8779-4C0F-9CBC-8746A7B48320}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{80715E79-8779-4C0F-9CBC-8746A7B48320}.Debug|anycpu.Build.0 = Debug|anycpu
+		{80715E79-8779-4C0F-9CBC-8746A7B48320}.Release|anycpu.ActiveCfg = Release|anycpu
+		{80715E79-8779-4C0F-9CBC-8746A7B48320}.Release|anycpu.Build.0 = Release|anycpu
+		{12F14BD9-B764-4C28-AB43-1EEAA953BF69}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{12F14BD9-B764-4C28-AB43-1EEAA953BF69}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{12F14BD9-B764-4C28-AB43-1EEAA953BF69}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{12F14BD9-B764-4C28-AB43-1EEAA953BF69}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BD14FAA-19E2-4920-BCFE-B2DC9B690976}
+	EndGlobalSection
+EndGlobal
