@@ -50,7 +50,7 @@ namespace PInvokeTableGeneratorTest
 			generator.OutputPath = Path.GetFullPath ("table.h");
 
 			string rootDirectory = Path.GetDirectoryName (typeof (MainClass).Assembly.Location);
-			rootDirectory = Path.GetFullPath (Path.Combine (rootDirectory, "..", "assemblies"));
+			rootDirectory = Path.GetFullPath (Path.Combine (rootDirectory, "..", "..", "assemblies"));
 
 			generator.Assemblies = GetAssemblyFileNames ()
 				.Select (fileName => Path.Combine (rootDirectory, fileName))
