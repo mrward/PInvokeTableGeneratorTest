@@ -92,6 +92,12 @@ namespace PInvokeTableGeneratorTest
 			}
 		}
 
+		// MethodInfo that fails:
+		//   {System.Int32 GetCalendars(System.String, System.Globalization.CalendarId[], System.Int32)}
+		//
+		// methodInfo.CustomAttributes[1].AttributeType throws a null reference exception.
+		// From type: Interop+Globalization
+		// From assembly: System.Private.CoreLib.dll
 		private void CollectPInvokes (List<PInvoke> pinvokes, List<PInvokeCallback> callbacks, Type type)
 		{
 			MethodInfo[] methods = type.GetMethods (BindingFlags.DeclaredOnly | BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
