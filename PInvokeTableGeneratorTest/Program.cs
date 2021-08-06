@@ -62,36 +62,36 @@ namespace PInvokeTableGeneratorTest
 
 		static IEnumerable<string> GetAssemblyFileNames ()
 		{
-			yield return "Microsoft.AspNetCore.Components.dll";
-			yield return "System.Net.Http.dll";
-			yield return "System.Runtime.dll";
-			yield return "System.Runtime.CompilerServices.Unsafe.dll";
-			yield return "System.Private.Uri.dll";
-			yield return "Microsoft.Extensions.DependencyInjection.dll";
-			yield return "Microsoft.JSInterop.dll";
-			yield return "Microsoft.AspNetCore.Components.WebAssembly.dll";
-			yield return "Microsoft.AspNetCore.Components.Web.dll";
+			//yield return "Microsoft.AspNetCore.Components.dll";
+			//yield return "System.Net.Http.dll";
+			//yield return "System.Runtime.dll";
+			//yield return "System.Runtime.CompilerServices.Unsafe.dll";
+			//yield return "System.Private.Uri.dll";
+			//yield return "Microsoft.Extensions.DependencyInjection.dll";
+			//yield return "Microsoft.JSInterop.dll";
+			//yield return "Microsoft.AspNetCore.Components.WebAssembly.dll";
+			//yield return "Microsoft.AspNetCore.Components.Web.dll";
 			yield return "System.Private.CoreLib.dll";
-			yield return "System.Text.Json.dll";
-			yield return "System.Text.Encodings.Web.dll";
-			yield return "DebugBlazorApp.Client.dll";
-			yield return "DebugBlazorApp.Shared.dll";
-			yield return "Microsoft.Extensions.Primitives.dll";
-			yield return "Microsoft.Extensions.Options.dll";
-			yield return "System.Private.Runtime.InteropServices.JavaScript.dll";
-			yield return "System.Net.Primitives.dll";
-			yield return "Microsoft.Extensions.Logging.Abstractions.dll";
-			yield return "System.ComponentModel.dll";
-			yield return "System.Collections.dll";
-			yield return "System.Collections.Concurrent.dll";
-			yield return "Microsoft.Extensions.Logging.dll";
-			yield return "Microsoft.Extensions.DependencyInjection.Abstractions.dll";
-			yield return "Microsoft.Extensions.Configuration.Json.dll";
-			yield return "Microsoft.Extensions.Configuration.Abstractions.dll";
-			yield return "Microsoft.Extensions.Configuration.dll";
-			yield return "System.Net.Http.Json.dll";
-			yield return "System.Memory.dll";
-			yield return "System.Linq.dll";
+			//yield return "System.Text.Json.dll";
+			//yield return "System.Text.Encodings.Web.dll";
+			//yield return "DebugBlazorApp.Client.dll";
+			//yield return "DebugBlazorApp.Shared.dll";
+			//yield return "Microsoft.Extensions.Primitives.dll";
+			//yield return "Microsoft.Extensions.Options.dll";
+			//yield return "System.Private.Runtime.InteropServices.JavaScript.dll";
+			//yield return "System.Net.Primitives.dll";
+			//yield return "Microsoft.Extensions.Logging.Abstractions.dll";
+			//yield return "System.ComponentModel.dll";
+			//yield return "System.Collections.dll";
+			//yield return "System.Collections.Concurrent.dll";
+			//yield return "Microsoft.Extensions.Logging.dll";
+			//yield return "Microsoft.Extensions.DependencyInjection.Abstractions.dll";
+			//yield return "Microsoft.Extensions.Configuration.Json.dll";
+			//yield return "Microsoft.Extensions.Configuration.Abstractions.dll";
+			//yield return "Microsoft.Extensions.Configuration.dll";
+			//yield return "System.Net.Http.Json.dll";
+			//yield return "System.Memory.dll";
+			//yield return "System.Linq.dll";
 		}
 	}
 }
